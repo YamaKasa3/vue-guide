@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@next"></script>
+
+</head>
+
+<body>
+    <div id="counter">
+        <div id="count">
+            Counter: {{ counter }}
+        </div>
+        <button v-on:click="start">Start</button>
+        <button v-on:click="stop">Stop</button>
+    </div>
+    <script src="counter.js"></script>
+</body>
+
+</html>

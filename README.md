@@ -1,2 +1,2 @@
 # Vue公式ガイド
-[公式ガイド](https://jp.vuejs.org/v2/guide/index.html)
+[公式ガイド](https://v3.ja.vuejs.org/guide/introduction.html)
