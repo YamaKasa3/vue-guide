@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <div id="app" class="demo">
+        <p>This will change: {{ msg }}</p>
+        <p v-once>This will never change: {{ msg }}</p>
+        <button v-on:click="click">Change</button>
+        <img v-bind:src="url" width="128" height="128" />
+    </div>
+    
+    <script src="template.js"></script>
+</body>
+</html>
